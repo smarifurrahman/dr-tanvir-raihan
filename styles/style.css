@@ -78,6 +78,16 @@ ul li {
   padding: 6px 0;
   border-bottom: 1px solid #f1f1f1;
   font-size: 15px;
+  position: relative;
+  padding-left: 18px;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
 }
 
 .commitment {
