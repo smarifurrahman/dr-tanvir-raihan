@@ -2,32 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0f3d3e" />
     <title>Dr. Tanvir Raihan</title>
 
-    <link rel="stylesheet" href="styles/style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="images/doctor.jpg" class="doctor-img" />
+    <main class="phone">
+      <header class="hero">
+        <div class="photo">
+          <img src="images/doctor.jpg" alt="Dr. Tanvir Raihan" />
+        </div>
 
         <h1>Dr. Tanvir Raihan</h1>
 
         <p class="degree">
           MBBS – Sir Salimullah Medical College, Dhaka<br />
-          BCS Health Cadre Officer
+          <span class="badge">BCS Health Cadre Officer</span>
         </p>
+      </header>
 
-        <div class="divider"></div>
-
+      <section class="section">
         <p class="bio">
           Dr. Tanvir Raihan is a dedicated medical professional and a BCS Health
           Cadre Officer of Bangladesh. He completed his MBBS from Sir Salimullah
@@ -47,25 +53,29 @@
           (CCD), strengthening his expertise in the prevention, diagnosis, and
           management of diabetes.
         </p>
+      </section>
 
-        <h2>Special Training & Expertise</h2>
+      <section class="section tinted">
+        <h2>Special Training &amp; Expertise</h2>
 
-        <ul>
+        <ul class="tiles">
           <li>Medicine (General Medicine)</li>
           <li>Gastroliver</li>
           <li>Diabetes</li>
           <li>Hormonal Disorders</li>
           <li>Rheumatologic Diseases (Joint Pain / Arthritis)</li>
-          <li>Skin & Sexually Transmitted Diseases</li>
+          <li>Skin &amp; Sexually Transmitted Diseases</li>
           <li>Chest Diseases (Respiratory Problems)</li>
-          <li>Mother & Child Health</li>
+          <li>Mother &amp; Child Health</li>
         </ul>
+      </section>
 
-        <div class="commitment">
+      <footer class="commitment">
+        <p>
           Dr. Raihan is committed to providing quality healthcare with
           professionalism, compassion, and evidence-based medical practice.
-        </div>
-      </div>
-    </div>
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
